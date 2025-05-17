@@ -1,9 +1,7 @@
-warnings
+scikit-learn
+streamlit
 pandas
-numpy 
-sklearn
-matplotlib.pyplot
+numpy
+matplotlib
 time
-Streamlit
 pickle
-google.colab.files 
