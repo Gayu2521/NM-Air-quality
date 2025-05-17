@@ -1,7 +1,7 @@
 warnings
 pandas
 numpy 
-scikit-learn
+sklearn
 matplotlib.pyplot
 time
 Streamlit
