@@ -4,6 +4,6 @@ numpy
 scikit-learn
 matplotlib.pyplot
 time
-Streamlit (imported as st)
+Streamlit
 pickle
 google.colab.files 
