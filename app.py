@@ -24,10 +24,15 @@ import matplotlib.pyplot as plt
 import time
 import streamlit as st
 import pickle
+import io
 
-from google.colab import files
-uploaded = files.upload()
-df = pd.read_csv("air quality.csv",encoding='ISO-8859-1')
+df = pd.read_csv("air quality.csv")
+uploaded_file = st.file_uploader("Upload your air quality CSV file", type=["csv"])
+if uploaded_file is not None:
+    df = pd.read_csv(uploaded_file)
+    # Proceed with your data processing
+else:
+    st.info("Please upload an air quality CSV file to proceed.")
 
 """Data Preprocessing and Feature Engineering"""
 
