@@ -10,8 +10,6 @@ Original file is located at
 import warnings
 warnings.filterwarnings("ignore", message="missing ScriptRunContext")
 
-!pip install scikit-learn
-
 """Importing Libraries"""
 
 import pandas as pd
