@@ -214,10 +214,7 @@ st.sidebar.header('Deployment Information')
 st.sidebar.subheader('Deployment Method:')
 st.sidebar.info('Streamlit Cloud')
 st.sidebar.subheader('Public Link:')
-st.sidebar.info('[Your Streamlit Cloud App Link]')
-
-st.sidebar.subheader('UI Screenshot:')
-st.sidebar.info('Please include a screenshot of the deployed application UI in your report.')
+st.sidebar.info('https://nm-air-quality-rsmamktnyyfqsagbpcfeoj.streamlit.app')
 
 st.sidebar.subheader('Sample Prediction Output:')
 st.sidebar.info('Example: PM2.5=25, PM10=50, NO2=30, CO=0.5, Ozone=40, Hour=10, Day=2, Month=7, Year=2025, TimeDiff=1.0 -> AQI=...')
