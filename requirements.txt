@@ -1,7 +1,8 @@
 numpy==1.24.4
 pandas
-scikit-learn==1.1.3
+scikit-learn==1.3.2
 streamlit
+setuptools
 matplotlib
 time
 pickle
